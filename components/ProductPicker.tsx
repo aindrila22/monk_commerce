@@ -82,7 +82,7 @@ const ProductPicker = ({
                   onChange={(e) => setSearchTerm(e.target.value)}
                   className="border p-2 rounded-md w-full"
                 />
-                <div className="overflow-y-auto max-h-[600px]">
+                <div className="overflow-y-auto max-h-[580px]">
                   {filteredProducts.length > 0 ? (
                     filteredProducts.map((product: any) => (
                       <div

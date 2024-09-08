@@ -205,7 +205,7 @@ const ProductItem = ({
                       handleCheckboxChange={handleCheckboxChange}
                       handleAddSelected={handleAddSelected}
                     />
-                    <div className="justify-end w-10/12 mt-5 flex items-end">
+                    <div className="justify-end w-10/12 mt-5 mb-5 flex items-end">
                       <button className="mt-4 px-4 py-2 border-[#008060] border-2 w-56 text-[#008060] rounded-md">
                         Add Product
                       </button>
