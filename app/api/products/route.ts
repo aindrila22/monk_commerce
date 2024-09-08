@@ -9,7 +9,7 @@ export async function GET() {
       {
         method: "GET",
         headers: {
-          "x-api-key": "72njgfa948d9aS7gs5",
+          "x-api-key": `${process.env.NEXT_PUBLIC_API_KEY}`,
         },
       }
     );

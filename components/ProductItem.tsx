@@ -165,7 +165,7 @@ const ProductItem = ({
                                   <div>
                                     {product.variants.map(
                                       (variant: any, index: number) => (
-                                        <div className="flex justify-end w-10/12 items-center my-5 gap-3">
+                                        <div key={index} className="flex justify-end w-10/12 items-center my-5 gap-3">
                                           <Image
                                             src="/dots.png"
                                             alt=""
